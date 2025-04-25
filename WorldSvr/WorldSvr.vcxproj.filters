@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game\EventAlert\EventAlert.cpp">
+      <Filter>Game\EventAlert</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MacroBM3\MacroBM3.cpp">
+      <Filter>Game\MacroBM3</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Structs\GameStructs.cpp">
+      <Filter>Game\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="Proc\Proc.cpp">
+      <Filter>Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager\PacketManager.cpp">
+      <Filter>PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Warp\Warp.cpp">
+      <Filter>Game\Warp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\WindowList\WindowList.cpp">
+      <Filter>Game\WindowList</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Management\Management.cpp">
+      <Filter>Game\Management</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{b7f8e14c-aaa4-4f61-ab76-2b3c6776064b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{f7fdaf3f-3618-409e-8bfd-c0087dc505a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c20bbae4-bf53-4207-9e59-07ea51b8ce51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EventAlert">
+      <UniqueIdentifier>{197d9095-c72e-4a50-9554-af94e69dc85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\MacroBM3">
+      <UniqueIdentifier>{146d21f3-2504-4929-bf68-478a55a4c32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{dc3505f2-737e-40d0-8d62-03b957f09a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Json">
+      <UniqueIdentifier>{24c8c4d4-9b2a-4da7-b6d1-d2c23e1aba5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Structs">
+      <UniqueIdentifier>{8d00f1a8-77f3-4a8d-91cc-3bcf866ece91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proc">
+      <UniqueIdentifier>{3b1859a1-7c2d-4f45-9733-14f739f9c9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacketManager">
+      <UniqueIdentifier>{3d432697-b19e-4bd9-a826-efcc848cd6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Warp">
+      <UniqueIdentifier>{5d89c71b-0b63-4568-81a2-a8a6fea24694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\WindowList">
+      <UniqueIdentifier>{e783fe49-ac84-4fc6-b6d7-95b9a16ba698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Management">
+      <UniqueIdentifier>{44ec1fa4-1251-4c78-95d3-6cf9eb1092e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory\Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EventAlert\EventAlert.h">
+      <Filter>Game\EventAlert</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MacroBM3\MacroBM3.h">
+      <Filter>Game\MacroBM3</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="Common\Json\json.hpp">
+      <Filter>Common\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Json\json_fwd.hpp">
+      <Filter>Common\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LibUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Singleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\typedefs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\XorString.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Structs\GameStructs.h">
+      <Filter>Game\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Proc\Proc.h">
+      <Filter>Proc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager\C2SPackets.h">
+      <Filter>PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager\PacketManager.h">
+      <Filter>PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager\Protodefs.h">
+      <Filter>PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager\S2CPackets.h">
+      <Filter>PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Warp\Warp.h">
+      <Filter>Game\Warp</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\WindowList\WindowList.h">
+      <Filter>Game\WindowList</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Management\Management.h">
+      <Filter>Game\Management</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
